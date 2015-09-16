@@ -21,7 +21,7 @@ Don't panic!
 
 1. 用户 A 与 upstream 同步: `git checkout master && git pull upstream master && git push origin master`
 2. 用户 A 从 master 新建分支: `git checkout -b modify_doc`
-3. 用户 A 修改 a.md ，将 ‘Hello world' 修改为 'hello user A'
+3. 用户 A 修改 a.md ，将 ‘hello world' 修改为 'hello user A'
 4. 用户 A 将修改提交: `git commit -m 'modify a.md' && git push origin modify_doc`
 5. 用户 A 提交 PR
 
@@ -48,7 +48,7 @@ Don't panic!
 
 1. 用户 A 与 upstream 同步: `git checkout master && git pull upstream master && git push origin master`
 2. 用户 A 从 master 新建分支: `git checkout -b modify_doc`
-3. 用户 A 修改 a.md ，将 ‘Hello world' 修改为 'hello user B'
+3. 用户 A 修改 a.md ，将 ‘hello world' 修改为 'hello user B'
 4. 用户 A 将修改提交: `git commit -m 'modify a.md' && git push origin modify_doc`
 5. 用户 A 提交 PR
 
